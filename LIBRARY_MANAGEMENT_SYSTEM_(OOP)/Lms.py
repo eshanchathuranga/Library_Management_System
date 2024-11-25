@@ -267,10 +267,10 @@ class System(Books, Members):
         # Initialize the parent classes
         Books.__init__(self)
         Members.__init__(self)
-    # Clear the screen
+    # Clear the screen - (Protected)
     def __clear_screen(self):
         os.system('cls' if os.name == 'nt' else 'clear')
-    # Display the dashboard
+    # Display the dashboard - (Private)
     def _display_dashboard(self):
         # Get the number of borrowed books
         count = 0
@@ -301,7 +301,7 @@ class System(Books, Members):
         print("12 - Search a Member")
         print("13 - Exit")
         print('\n')
-    # Run the system
+    # Run the system - (Public)
     def run(self):
         print("Welcome to Library Management System\n")
         self._display_dashboard()
@@ -421,8 +421,12 @@ class System(Books, Members):
         # Enter option is exit
         elif input_option == '13':
             exit()
+        # Invalid option
+        else:
+            print("Invalid option!")
+            input("Press Enter to continue...")
+            self.run()
 
-
-# Run the system
+## RUN THE SYSTEM
 sys = System()
 sys.run()
