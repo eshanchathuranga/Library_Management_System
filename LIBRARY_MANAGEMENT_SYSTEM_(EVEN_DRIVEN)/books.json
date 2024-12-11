@@ -1,0 +1,50 @@
+{
+    "5": {
+        "title": "The Great Gatsby part 01",
+        "author": "F. Scott Fitzgerald",
+        "year": 1925,
+        "genre": "Novel",
+        "status": {
+            "isBorrowed": false,
+            "borrowedTo": null,
+            "borrowedDate": null,
+            "returnDate": null
+        }
+    },
+    "6": {
+        "title": "testdasd",
+        "author": "asdasda",
+        "year": "asdasdas",
+        "genre": "asdasd",
+        "status": {
+            "isBorrowed": false,
+            "borrowedTo": null,
+            "borrowedDate": null,
+            "returnDate": null
+        }
+    },
+    "7": {
+        "title": "test1",
+        "author": "eshan",
+        "year": "3006",
+        "genre": "novel",
+        "status": {
+            "isBorrowed": false,
+            "borrowedTo": null,
+            "borrowedDate": null,
+            "returnDate": null
+        }
+    },
+    "9": {
+        "title": "afdaf",
+        "author": "adfadf",
+        "year": "adfdaf",
+        "genre": "adfadf",
+        "status": {
+            "isBorrowed": false,
+            "borrowedTo": null,
+            "borrowedDate": null,
+            "returnDate": null
+        }
+    }
+}
